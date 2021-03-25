@@ -48,8 +48,8 @@ playBtn.addEventListener('click', () =>{
  
 const loadSong = (songs) =>{
  	title.textContent = songs.title;
- 	music.src = songs.name + '.mp3';
- 	cover.src = songs.name + '.jpg';
+ 	music.src = './' + songs.name + '.mp3';
+ 	cover.src = './' + songs.name + '.jpg';
 };
 
 function prevSong(){
